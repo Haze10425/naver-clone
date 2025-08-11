@@ -780,7 +780,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
   height: 8px;
   margin: 8px 0 0 2px;
   content: "";
-  background-image: url(/assets/image/sp_main.04eb92b7.png);
+  background-image: url("../image/sp_main.04eb92b7.png");
   background-size: 463px 442px;
   background-position: -453px -328px;
   background-repeat: no-repeat;
@@ -1075,6 +1075,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
   display: flex;
   align-items: center;
   margin-top: 4px;
+  max-width: 185px;
 }
 
 .content_name .profile_thumb {
@@ -1085,7 +1086,12 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
 }
 
 .content_name .name {
+  display: inline-block;
+  min-width: 0;
   color: var(--color_caption);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .feed_content {
@@ -1469,7 +1475,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
   width: 16px;
   height: 16px;
   content: "";
-  background-image: url(../image/sp_main.04eb92b7.png);
+  background-image: url("../image/sp_main.04eb92b7.png");
   background-size: 468px 456px;
   background-position: -288px -343px;
   background-repeat: no-repeat;
@@ -1511,7 +1517,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
 .stock_icon {
   width: 12px;
   height: 12px;
-  background-image: url(../image/sp_main.04eb92b7.png);
+  background-image: url("../image/sp_main.04eb92b7.png");
   background-size: 468px 456px;
   background-position: -80px -445px;
   background-repeat: no-repeat;
@@ -1538,6 +1544,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .stock_item {
@@ -1582,7 +1589,7 @@ ul[data-type="news"] .tab_item:nth-of-type(2)::before {
 .more_icon {
   width: 10px;
   height: 12px;
-  background-image: url(../image/sp_main.04eb92b7.png);
+  background-image: url("../image/sp_main.04eb92b7.png");
   background-size: 468px 456px;
   background-position: -457px -135px;
   background-repeat: no-repeat;

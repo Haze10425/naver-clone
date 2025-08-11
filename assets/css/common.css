@@ -1,0 +1,54 @@
+:root {
+  --color_border: #ebebeb;
+  --color_caption: #606060;
+  --color_body: #101010;
+  --color_news: #3a67ea;
+  --color_enter: #e538e2;
+  --color_sports: #1f65ef;
+  --color_live_tag: #f4361e;
+  --color_button_border: #dadcdf;
+  --color_button1_bg: #fff;
+  --color_option_bg: #f5f7f8;
+  --color_dot: #d3d5d7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14.7px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕",
+    helvetica, "Apple SD Gothic Neo", sans-serif;
+  letter-spacing: -0.4px;
+  color: var(--color_body);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  cursor: pointer;
+}
+
+.blind {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+}
